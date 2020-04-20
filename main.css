@@ -1,0 +1,142 @@
+.container {
+    padding: 20px 10% 0 10%;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+header img {
+    max-width: 200px;
+}
+
+.banner {
+    margin: 40px 10% 60px 10%;
+    text-align: center;
+}
+
+.banner h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #9163CC;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.6;
+}
+
+.banner h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.4;
+}
+
+.boxes {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    flex-grow: 1;
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 200px;
+    padding: 60px 80px 60px 80px;
+    margin: 40px 0 40px 0;
+    background-color: #976dd00a;
+    border-radius: 10px;
+    position: relative;
+}
+
+.box h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #9163CC;
+    line-height: 1.6;
+}
+
+.box p {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.box input {
+    position: absolute;
+    bottom: 90px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color:  #5A6978;
+    height: 25px;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.action {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.action button {
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.calculate {
+    background-color: #9163CC;
+    color: #FFFF;
+}
+
+.restart {
+    background-color: #f8f9fa;
+    color: #5A6978;
+}
+
+.result {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin: 50px 50px;
+}
+
+footer {
+    padding: 40px 80px 40px 80px;
+    background-color: #f8f9fa;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+footer a {
+    color: #9163CC;
+}
+
+.about-me {
+    min-width: 200px;
+    max-width: 700px;
+    padding: 40px;
+}
+
+.about-me-links {
+    padding: 40px
+}
