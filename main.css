@@ -34,7 +34,7 @@ header img {
     line-height: 1.4;
 }
 
-.boxes {
+.board {
     margin-bottom: 50px;
     display: flex;
     flex-direction: row;
@@ -42,7 +42,7 @@ header img {
     justify-content: space-around;
 }
 
-.box {
+.card {
     flex-grow: 1;
     min-width: 200px;
     max-width: 400px;
@@ -54,7 +54,7 @@ header img {
     position: relative;
 }
 
-.box h2 {
+.card h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -62,13 +62,13 @@ header img {
     line-height: 1.6;
 }
 
-.box p {
+.card p {
     font-family: 'Lato', sans-serif;
     font-size: 17px;
     line-height: 1.6;
 }
 
-.box input {
+.card input {
     position: absolute;
     bottom: 90px;
     border-radius: 5px;
@@ -79,6 +79,14 @@ header img {
     width: 200px;
     padding: 5px;
     font-size: 15px;
+}
+
+.days-error {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    bottom: 70px;
 }
 
 .action {
@@ -99,17 +107,17 @@ header img {
     text-transform: uppercase;
 }
 
-.calculate {
+#btn-calculate {
     background-color: #9163CC;
     color: #FFFF;
 }
 
-.restart {
+#btn-restart {
     background-color: #f8f9fa;
     color: #5A6978;
 }
 
-.result {
+#result {
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-size: 30px;

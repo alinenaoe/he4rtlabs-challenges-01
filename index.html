@@ -21,36 +21,36 @@
         <h3>Experiente ou iniciante, todo mundo que desenvolve projetos como freelancer precisa saber o preço do seu tempo. Assim dá para se organizar melhor, entender o valor do trabalho e do descanso e ainda saber o momento de cobrar mais ou menos. Esta calculadora é simples, gratuita e feita para facilitar essa tarefa. Vamos lá?</h2>
       </div>
 
-      <div class="boxes">
-        <div class="box">
+      <div class="board">
+        <div class="card">
           <h2>Quantidade de dias</h2>
           <p>Ou seja, quantos dias você vai dedicar ao projeto? Importante: considere tanto o desenvolvimento como a parte comercial</p>
-          <input></input>
+          <input type="number" id="input-days" required> 
+          <div class="days-error">Você precisa informar a quantidade de dias. Digite apenas números inteiros. Ex: 5</div>
         </div>
-        <div class="box">
+        <div class="card">
           <h2>Horas por dia</h2>
           <p>Informe aqui em horas o tempo que você vai destinar ao trabalho durante os dias indicados anteriormente</p>
-          <input></input>
+          <input type="number" id="input-hours" required> 
         </div>
-        <div class="box">
+        <div class="card">
           <h2>Descanso</h2>
           <p>Isso mesmo! O custo de um trabalho também deve considerar um período de férias. Quantos dias de férias você estipula para esse projeto?</p>
-          <input></input>
+          <input type="number" id="input-rest" required> 
         </div>
-        <div class="box">
+        <div class="card">
           <h2>Valor do projeto</h2>
           <p>Para concluir, neste campo você informa o valor total em reais que receberá (ou deseja receber) pelo freela. </p>
-            <input></input>
+          <input type="number" id="input-payment" required> 
         </div>
       </div>
 
       <div class="action">
-        <button class="calculate">Calcular</button>
-        <button class="restart">Recomeçar</button>
+        <button id="btn-calculate">Calcular</button>
+        <button id="btn-restart">Recomeçar</button>
       </div>
 
-      <div class="result">
-        <p>O valor da sua hora é de R$ 78.00</p>
+      <div id="result">
       </div>
 
     </div>
@@ -72,6 +72,6 @@
     </div>
   </footer>
 
-  <script src="./main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
