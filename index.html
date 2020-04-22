@@ -25,23 +25,22 @@
         <div class="card">
           <h2>Quantidade de dias</h2>
           <p>Ou seja, quantos dias você vai dedicar ao projeto? Importante: considere tanto o desenvolvimento como a parte comercial</p>
-          <input type="number" id="input-days" required> 
-          <div class="days-error">Você precisa informar a quantidade de dias. Digite apenas números inteiros. Ex: 5</div>
+          <input type="number" id="input-days" min=1 required> 
         </div>
         <div class="card">
           <h2>Horas por dia</h2>
-          <p>Informe aqui em horas o tempo que você vai destinar ao trabalho durante os dias indicados anteriormente</p>
-          <input type="number" id="input-hours" required> 
+          <p>Agora informe aqui em horas o tempo que você vai destinar ao trabalho durante os dias que você indicou anteriormente</p>
+          <input type="number" id="input-hours" min=1 required> 
         </div>
         <div class="card">
           <h2>Descanso</h2>
-          <p>Isso mesmo! O custo de um trabalho também deve considerar um período de férias. Quantos dias de férias você estipula para esse projeto?</p>
-          <input type="number" id="input-rest" required> 
+          <p>O custo de um trabalho também deve considerar um período de férias. Quantos dias de férias você estipula para esse projeto?</p>
+          <input type="number" id="input-rest" min=1 required> 
         </div>
         <div class="card">
           <h2>Valor do projeto</h2>
-          <p>Para concluir, neste campo você informa o valor total em reais que receberá (ou deseja receber) pelo freela. </p>
-          <input type="number" id="input-payment" required> 
+          <p>Para concluir, neste campo você precisa infomrar valor total em reais que receberá (ou deseja receber) pelo freela.  </p>
+          <input type="number" id="input-payment" min=1 required> 
         </div>
       </div>
 
@@ -58,10 +57,7 @@
 
   <footer>
     <div class="about-me">
-      <p>Oi! Meu nome é Aline Naoe e estou dando meus primeiros passos no desenvolvimento front-end. 
-
-        A calculadora de freela é um desafio proposto pela comunidade He4rt Developers para colocar em prática conhecimentos em HTML, CSS e JavaScript. Quer acessar este código, fazer um comentário sobre a página ou bater um papo? Entre em contato comigo!
-        </p>
+      <p>Oi! Meu nome é Aline Naoe e estou dando meus primeiros passos no desenvolvimento front-end. A calculadora de freela é um desafio proposto pela comunidade <a href="https://heartdevs.com/">He4rt Developers</a> para colocar em prática conhecimentos em HTML, CSS e JavaScript. Quer acessar este código, fazer um comentário sobre a página ou bater um papo? Entre em contato comigo!</p>
     </div>
     <div class="about-me-links">
     <ul>
