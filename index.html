@@ -25,22 +25,22 @@
         <div class="card">
           <h2>Quantidade de dias</h2>
           <p>Ou seja, quantos dias você vai dedicar ao projeto? Importante: considere tanto o desenvolvimento como a parte comercial</p>
-          <input type="number" id="input-days" min=1 required> 
+          <input type="number" id="input-days" min="1" max="400" required> 
         </div>
         <div class="card">
           <h2>Horas por dia</h2>
-          <p>Agora informe aqui em horas o tempo que você vai destinar ao trabalho durante os dias que você indicou anteriormente</p>
-          <input type="number" id="input-hours" min=1 required> 
+          <p>Agora informe aqui em horas o tempo que você vai destinar ao trabalho durante cada dia que você indicou anteriormente</p>
+          <input type="number" id="input-hours" min="1" max="24" required> 
         </div>
         <div class="card">
           <h2>Descanso</h2>
           <p>O custo de um trabalho também deve considerar um período de férias. Quantos dias de férias você estipula para esse projeto?</p>
-          <input type="number" id="input-rest" min=1 required> 
+          <input type="number" id="input-rest" min="1" max="100" required> 
         </div>
         <div class="card">
           <h2>Valor do projeto</h2>
           <p>Para concluir, neste campo você precisa infomrar valor total em reais que receberá (ou deseja receber) pelo freela.  </p>
-          <input type="number" id="input-payment" min=1 required> 
+          <input type="number" id="input-payment"  min="1" max="10000000000" required> 
         </div>
       </div>
 
@@ -48,6 +48,7 @@
         <button id="btn-calculate">Calcular</button>
         <button id="btn-restart">Recomeçar</button>
       </div>
+
 
       <div id="result">
         <p id='resultMessage'></p>
@@ -61,9 +62,9 @@
     </div>
     <div class="about-me-links">
     <ul>
-      <li><a href="#">alinenaoe@gmail.com</a></li>
-      <li><a href="#">https://github.com/alinenaoe</a></li>
-      <li><a href="#">https://www.linkedin.com/in/alinenaoe/</a></li>
+      <li><a href="mailto:alinenaoe@gmail.com">alinenaoe@gmail.com</a></li>
+      <li><a href="https://github.com/alinenaoe">github.com/alinenaoe</a></li>
+      <li><a href="https://www.linkedin.com/in/alinenaoe/">linkedin.com/in/alinenaoe</a></li>
     </ul>
 
     </div>
