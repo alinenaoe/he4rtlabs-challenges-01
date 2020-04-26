@@ -20,13 +20,16 @@ btnCalculate.onclick = function () {
 }
 
 function showResultMessage (resultValueFixed) {
-    let resultMessage = document.getElementById('resultMessage');
-    resultMessage.innerHTML = "O valor da sua hora é de R$ " + resultValueFixed; 
+    if( (isFinite(resultValueFixed)) &&  (resultValueFixed < 999999999) ) {
+        let resultMessage = document.getElementById('resultMessage');
+        resultMessage.innerHTML = "O valor da sua hora é de R$ " + resultValueFixed; 
+    } else {
+        showErrorMessage();
+    }
 }
 
 function showErrorMessage(){
     let resultMessage = document.getElementById('resultMessage');
-
     resultMessage.innerHTML = "Preencha todos os valores corretamente para podermos calcular o valor da sua hora :)"; 
 }
 
